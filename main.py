@@ -1,7 +1,7 @@
 
 from tkinter import *
 from tkinter import ttk
-
+from structure import App_structure
 import json
 
 
@@ -16,6 +16,10 @@ class Main_class:
         self.wind = window
         self.wind.title("App search text")
         self.wind.geometry("600x350")
+        
+        
+        self.struc = App_structure()
+        self.struc.tex_area(self.wind)
 
 
 
