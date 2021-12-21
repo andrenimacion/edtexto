@@ -1,7 +1,9 @@
 
 
 {
-    "title": "App",
-    "size": "998x350"
+    "size":             "998x350",
+    "bacground-App":    "#2E4053",
+    "label-bg":         "#2E4053",
+    "text-label-color": "whitesmoke"
 }
 
